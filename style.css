@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+ 
+
+  
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: #1d539e;
+  height: 45rem;
+}
+
+header h1 {
+  margin-top: -10rem;
+  
+  width: 55.3rem;
+  height: 6.5rem;
+
+  text-align: center;
+
+  color: #fff;
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+header p {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+
+  margin-top: 2rem;
+
+  width: 55rem;
+  height: 5rem;
+}
+ 
+
+ section  {
+  margin-top: -14rem;
+  display: flex;
+  height: 45rem;
+ 
+  justify-content: center;
+  gap: 2rem;
+}
+
+.free-pro h1,  .basic h1 {
+  width: 5.1rem;
+  font-size: 1.8rem;
+ 
+
+  color: #1e2338;
+  font-weight: 600;
+}
+
+.free-pro h1 {
+  margin-bottom: 2rem;
+}
+
+.free-pro p , .basic p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #828799;
+}
+
+.free-pro p2 {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+
+}
+
+.free-pro  p, p2, p3  .basic  p, p2, p3 {
+  width: 100%;
+  color: #828799;
+}
+
+span {
+  text-align: start;
+  width: 10.1rem;
+  height: 4.9rem;
+  color: #1E2338;
+  font-size: 3.6rem;
+  font-weight: 700;
+
+}
+.text-basic {
+
+  padding: 0rem 3.3rem 4.3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 35.5rem;
+  height: 49rem;
+
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(142, 150, 185, 0.25);
+
+}
+
+.tittle-basic {
+  padding: 2rem;
+  border-radius: .8rem .8rem 0 0;
+  background: #FFCC29;;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.2rem;
+  box-shadow: 0px 1px 2px 0px rgba(142, 150, 185, 0.25);
+}
+
+.basic h1 {
+  width: 6.3rem;
+  height: 2.7rem;
+ color: #1D539E;
+ font-size: 2rem;
+ font-weight: 600;
+}
+
+.basic p {
+  margin-top: -1rem;
+}
+.basic p2 {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+ p3 {
+  width: 29.5rem;
+  margin-top: 2rem;
+  border-bottom: 1px solid #EEE;
+}
+.basic h2 {
+text-align: center;
+font-size: 1.2rem;
+font-weight: 600;
+
+color: #FFF;
+
+ 
+width: 9.4rem;
+height: 3.2rem;
+
+
+border-radius: 40px;
+background: #1D539E;
+padding: 8px 24px;
+
+gap: 10px;
+}
+
+.free-pro {
+
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 35.5rem;
+  height: 47rem;
+  padding:  3.3rem 4.3rem 3rem;
+
+  border-radius: 0.8rem;
+
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(142, 150, 185, 0.25);
+}
+
+.basic {
+  
+  
+  display: flex;
+  flex-direction: column;
+  width: 35.5rem;
+  height: 49rem;
+
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(142, 150, 185, 0.25);
+}
+
+
+.img-check {
+
+  margin-top: 2rem;
+ 
+  width: 26rem;
+  height: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  
+  gap: 2rem;
+}
+.img-check p {
+  margin-left: 34px;
+  
+}
+
+
+
+.img-check  {
+  background-image: url(./assets/check.svg);
+  background-repeat: no-repeat;
+  background-position: left  top 50%;
+  
+}
+
+.input-wrapper {
+  margin-bottom: -50px;
+}
+
+
+
+
+
+
+
+.text-basic .img-check p {
+ 
+  margin-top: 0rem;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.free-pro .img-check p {
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 600;
+}
+
+
+
+.myButton button {
+  background-color: #FFF;
+  color: #1d539e;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  
+  display: flex;
+  width: 29.6rem;
+  padding: 1.2rem 2.4rem;
+  justify-content: center;
+
+  border-radius: 1rem;
+  border: 1px solid #1D539E;
+
+  margin-top: 12rem;
+  
+}
+
+.myButton, .proButton, .myButton2 {
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+  .myButton2 button {
+    background-color: #FFF;
+    color: #1d539e;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+    display: flex;
+    width: 29.6rem;
+    
+    padding: 1.2rem 2.4rem;
+    justify-content: center;
+  
+    border-radius: 1rem;
+    border: 1px solid #1D539E;
+  
+    margin-top: 1.4rem;
+    
+  }
+  
+
+  .proButton button {
+    background: #1d539e;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+    display: flex;
+    width: 29.6rem;
+    
+    padding: 1.2rem 2.4rem;
+    justify-content: center;
+  
+    border-radius: 1rem;
+    border: 1px solid #1D539E;
+  
+    margin-top: 6.9rem;
+  }
+  
+
+
+  
